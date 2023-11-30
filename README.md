@@ -25,7 +25,7 @@ The final script will read in each zone file and add the records to the associat
 
 1. Best practice would be to start with one or two zones to test the process.
 2. The script assumes that all of your Zone files are contained within one folder and that all DNS Zones on Azure will be deployed into the same Resource Group.
-3. If you have multiple Azure subscriptions, you will need to use Set-AzContext -Subscription "xxxx-xxxx-xxxx-xxxx" so that Terraform and Powershell know where to add the resources.
+3. If you have multiple Azure subscriptions, you will need to use az account set --subscription "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" so that Terraform and Powershell know where to add the resources.
 
 # Disclaimer
 
